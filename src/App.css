@@ -1,0 +1,65 @@
+.top-ramen-body {
+  font-size: 16px;
+  font-family: sans-serif;
+  background: #fff !important;
+  letter-spacing: 0.05rem;
+}
+.top-ramen-body .green-icon {
+  color: #008c38;
+}
+.top-ramen-body .yellow-icon {
+  color: #fadb14;
+  font-size: 20px;
+  margin-right: 8px;
+}
+.top-ramen-body .grey-icon {
+  color: #e8e8e8;
+  font-size: 20px;
+  margin-right: 8px;
+}
+.top-ramen-body .italic-bold {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-style: italic;
+  margin: 0 5px;
+}
+.top-ramen-body p {
+  margin-bottom: 0;
+}
+.top-ramen-body .top-ramen-content {
+  margin: 0 40px 55px 0;
+}
+.top-ramen-body .top-ramen-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.15);
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+.top-ramen-body .top-ramen-header p.header {
+  margin-bottom: 0;
+}
+.top-ramen-body .top-ramen-header .anticon {
+  vertical-align: 0rem;
+}
+.align-center {
+  margin: 0 auto;
+}
+.margin-right {
+  margin-right: 5px;
+}
+.top-ramen-body .ant-col {
+  margin-bottom: 10px;
+}
+.top-ramen-body .top-ramen-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.75);
+  padding: 0.75rem 0.25rem;
+  font-size: 16px;
+}

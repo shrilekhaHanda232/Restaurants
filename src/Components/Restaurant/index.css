@@ -1,0 +1,25 @@
+.restaurant-card .ant-card-head {
+  padding: 5px 24px;
+  background: #fafafa;
+}
+.top-ramen-content .ant-card {
+  margin-bottom: 18px;
+}
+.restaurant-card > .ant-card-head > .ant-card-head-wrapper > .ant-card-extra,
+.restaurant-card.ant-card-small > .ant-card-head .top-ramen-content .ant-card,
+.restaurant-card .ant-card-head,
+.restaurant-card .ant-card-body p {
+  font-size: 16px !important;
+}
+.restaurant-card .ant-card-body {
+  font-style: italic;
+}
+.restaurant-card .ant-card-body {
+  padding: 16px 24px;
+}
+.restaurant-card .ant-card-body p {
+  margin: 0.3rem 0;
+}
+.red-color {
+  color: #ff5f3b;
+}

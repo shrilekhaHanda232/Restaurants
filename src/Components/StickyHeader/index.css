@@ -1,0 +1,68 @@
+.sticky-header-container {
+  box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.15);
+  padding: 0.5rem;
+  align-items: center;
+  margin: 0 0 18px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #fff;
+}
+.sticky-header-container .sticky-header input {
+  font-size: 18px;
+  height: 32px;
+  line-height: 1.5;
+  padding: 6px 11px;
+  border-radius: 5px;
+}
+.sticky-header-container .filter-dropdown-btn {
+  width: 97%;
+  margin-left: 8px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.25);
+  position: absolute;
+  top: 0;
+  font-size: 16px !important;
+}
+.sticky-header-container .filter-dropdown-btn span:nth-child(2) {
+  position: absolute;
+  right: 10px;
+  top: 35%;
+}
+.sticky-header-container .filter-dropdown-btn .close-btn {
+  top: 27% !important;
+}
+.sticky-header-container .filters-section {
+  display: flex;
+  flex: 1 1;
+  align-items: center;
+}
+.sticky-header-container .filter-text {
+  display: flex;
+  align-items: center;
+}
+.sticky-header-container .ant-btn:hover,
+.sticky-header-container .ant-btn:focus {
+  border-color: #d9d9d9;
+  color: #d9d9d9;
+}
+.sticky-header .ant-input-group-addon button {
+  border-left: 0;
+  border-radius: 0 5px 5px 0 !important;
+}
+.filter-sub-menu {
+  min-width: 200px;
+  max-height: 200px;
+  overflow-y: scroll;
+}
+.filter-drop-down {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.color-black {
+  color: #000;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
